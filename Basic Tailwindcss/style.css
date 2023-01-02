@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn2{
+        @apply px-3 py-2 rounded-md bg-purple-800 text-white hover:bg-white hover:text-purple-900 hover:border-2 hover:border-purple-900 active:bg-purple-800 active:text-gray-300 focus:outline-red-600;
+    }
+}
+
